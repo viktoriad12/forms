@@ -11,8 +11,21 @@
   </head>
   <body>
     <div class="main">
-      <div class="emoji mb-6">💣🤯💥</div>
-      <button class="button">Boom?</button>
+      <form>
+        <label for="ccname">Name</label>
+        <input type="name" id="ccname" name="ccname" autocomplete="on" placeholder="Your Name"/>
+
+        <label for="cardnumber">Card number</label>
+        <input type="number" id="cardnumber" name="cardnumber" autocomplete="off"/>
+
+        <label for="cvc">CVC</label>
+        <input name="cvc" type="number" maxlength="3" placeholder="XXX"  id="cvc" autocomplete="off" />
+       
+        <label for="cc-exp">Exp. Date</label>
+        <input type="month" id="cc-exp" name="cc-exp" placeholder="XX/YY" autocomplete="off"/>
+
+
+      </form>
     </div>
   </body>
 </html>
